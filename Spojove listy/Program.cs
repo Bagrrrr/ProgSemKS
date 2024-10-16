@@ -40,9 +40,10 @@ class LinkedList
         Node node = Head;
         while (node.Next != null)
         {
-            if(node.Value == value)
+            if (node.Value == value)
                 return true;
             node = node.Next;
         }
-    }   return false;
+        return false;
+}
 }
