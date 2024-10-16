@@ -15,7 +15,7 @@ class Node
     {
         Value = value;
     }
-    public int Value { get; }
+    int Value { get; }
     public Node Next {  get; set; }
 }
 class LinkedList
@@ -40,9 +40,10 @@ class LinkedList
         Node node = Head;
         while (node.Next != null)
         {
-            if(node.Value == value)
+            if (node.Value == value)
                 return true;
             node = node.Next;
         }
-    }   return false;
+        return false;
+    }
 }
