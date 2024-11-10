@@ -44,6 +44,8 @@ namespace Spojovy_seznam
                 Head = newNode;
             }
         }
+
+
         public bool Find(int value) 
         {
             Node node = Head;
@@ -55,7 +57,9 @@ namespace Spojovy_seznam
             }
             return false;
         }
-        public int Min()    
+
+
+        public int Min()    // UKOL 1 - MIN O(n)
         {
             int min = Head.Next.Value;
             Node node = Head;
@@ -67,7 +71,9 @@ namespace Spojovy_seznam
             }
             return min;
         }
-        public void PrintList()
+
+
+        public void PrintList()     // UKOL 2 - PRINT
         {
             Node current = Head;
             while (current != null)
@@ -78,7 +84,9 @@ namespace Spojovy_seznam
             }
             Console.WriteLine();
         }
-        public int Len(LinkedList list)
+
+
+        public int Len(LinkedList list)     // POMOCNY LEN
         {
             Node node = Head;
             int len = 0;
@@ -89,45 +97,24 @@ namespace Spojovy_seznam
             }
             return len;
         }
-        public LinkedList Sort2(LinkedList list)
-        {
-            LinkedList result = new LinkedList();
-            int previous = 0;
-            Node current = Head;
-            int min = 0;
-            while (current != null)
-            {
-                while (current != null)
-                {
-                    if (previous < current.Value & current.Value < min)
-                    {
-                        min = current.Value;
-                    }
-                    current = current.Next;
-                }
-                result.Add(min);
-                previous = min;
 
-            }
-            return result;
-        }
+
         public LinkedList BubbleSort(LinkedList list)
         {
             Node current = Head;
-            Node previous = Head;
-            int bigger = 0;
-            int smaller = 0;
+            Node previous = null;
             int len = list.Len(list);
             for (int i = 0; i < len; i++)
             {
+                current = Head;
+                previous = null;
                 while (current.Next != null)
                 {
                     if (current.Value > current.Next.Value)
                     {
-                        bigger = current.Value;
-                        smaller = current.Next.Value;
-                        current.Next.Value = bigger;
-                        current.Value = smaller;
+                        previous.Next = current.Next;
+                        current.Next = current.Next.Next;
+                        previous.Next.Next = previous.Next;
                     }
                     previous = current;
                     current = current.Next;
