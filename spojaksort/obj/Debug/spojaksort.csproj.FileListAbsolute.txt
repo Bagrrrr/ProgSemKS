@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\spojaksort\bin\Debug\spojaksort.exe.config
+O:\C#\ProgSemKS\spojaksort\bin\Debug\spojaksort.exe
+O:\C#\ProgSemKS\spojaksort\bin\Debug\spojaksort.pdb
+O:\C#\ProgSemKS\spojaksort\obj\Debug\spojaksort.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\spojaksort\obj\Debug\spojaksort.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\spojaksort\obj\Debug\spojaksort.exe
+O:\C#\ProgSemKS\spojaksort\obj\Debug\spojaksort.pdb
