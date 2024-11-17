@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E0F62BDB-FB03-4749-896B-ED3B5FE13518}</ProjectGuid>
+    <ProjectGuid>{482C6557-0AF8-4C49-9416-ECE74C8C1AD4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>spojak2</RootNamespace>
-    <AssemblyName>spojak2</AssemblyName>
+    <RootNamespace>Hledac2</RootNamespace>
+    <AssemblyName>Hledac2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
