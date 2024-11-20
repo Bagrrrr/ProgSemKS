@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\spojak2\bin\Debug\spojak2.exe.config
+O:\C#\ProgSemKS\spojak2\bin\Debug\spojak2.exe
+O:\C#\ProgSemKS\spojak2\bin\Debug\spojak2.pdb
+O:\C#\ProgSemKS\spojak2\obj\Debug\spojak2.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\spojak2\obj\Debug\spojak2.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\spojak2\obj\Debug\spojak2.exe
+O:\C#\ProgSemKS\spojak2\obj\Debug\spojak2.pdb
