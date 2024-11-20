@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.exe.config
+O:\C#\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.exe
+O:\C#\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.pdb
+O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.exe
+O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.pdb
