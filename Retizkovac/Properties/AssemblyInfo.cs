@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("spojak2")]
+[assembly: AssemblyTitle("Hledac2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("GCHD")]
-[assembly: AssemblyProduct("spojak2")]
-[assembly: AssemblyCopyright("Copyright © GCHD 2024")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Hledac2")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0f62bdb-fb03-4749-896b-ed3b5fe13518")]
+[assembly: Guid("482c6557-0af8-4c49-9416-ece74c8c1ad4")]
 
 // Version information for an assembly consists of the following four values:
 //

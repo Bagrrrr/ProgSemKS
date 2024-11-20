@@ -1,0 +1,7 @@
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\bin\Debug\Hledac2.exe.config
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\bin\Debug\Hledac2.exe
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\bin\Debug\Hledac2.pdb
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\obj\Debug\Hledac2.csproj.AssemblyReference.cache
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\obj\Debug\Hledac2.csproj.CoreCompileInputs.cache
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\obj\Debug\Hledac2.exe
+C:\Users\kryst\Desktop\ProgSemKS\Hledac2\obj\Debug\Hledac2.pdb
