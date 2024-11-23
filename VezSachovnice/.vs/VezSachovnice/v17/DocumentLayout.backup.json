@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\C#\\ProgSemKS\\VezSachovnice\\",
+  "WorkspaceRootPath": "C:\\Users\\kryst\\Desktop\\ProgSemKS\\VezSachovnice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{758DF5A8-380B-4450-9510-CAFFC133804C}|VezSachovnice.csproj|o:\\c#\\progsemks\\vezsachovnice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{758DF5A8-380B-4450-9510-CAFFC133804C}|VezSachovnice.csproj|c:\\users\\kryst\\desktop\\progsemks\\vezsachovnice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{758DF5A8-380B-4450-9510-CAFFC133804C}|VezSachovnice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,18 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "O:\\C#\\ProgSemKS\\VezSachovnice\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kryst\\Desktop\\ProgSemKS\\VezSachovnice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "O:\\C#\\ProgSemKS\\VezSachovnice\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kryst\\Desktop\\ProgSemKS\\VezSachovnice\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawBUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T14:18:56.756Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

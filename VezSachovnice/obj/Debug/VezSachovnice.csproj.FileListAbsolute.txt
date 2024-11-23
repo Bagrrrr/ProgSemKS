@@ -5,3 +5,10 @@ O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.AssemblyReference.c
 O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.CoreCompileInputs.cache
 O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.exe
 O:\C#\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.pdb
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.exe.config
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.exe
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\bin\Debug\VezSachovnice.pdb
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.AssemblyReference.cache
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.csproj.CoreCompileInputs.cache
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.exe
+C:\Users\kryst\Desktop\ProgSemKS\VezSachovnice\obj\Debug\VezSachovnice.pdb
