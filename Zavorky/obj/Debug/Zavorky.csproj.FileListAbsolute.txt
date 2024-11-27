@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\Zavorky\bin\Debug\Zavorky.exe.config
+O:\C#\ProgSemKS\Zavorky\bin\Debug\Zavorky.exe
+O:\C#\ProgSemKS\Zavorky\bin\Debug\Zavorky.pdb
+O:\C#\ProgSemKS\Zavorky\obj\Debug\Zavorky.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\Zavorky\obj\Debug\Zavorky.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\Zavorky\obj\Debug\Zavorky.exe
+O:\C#\ProgSemKS\Zavorky\obj\Debug\Zavorky.pdb
