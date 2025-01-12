@@ -1,0 +1,7 @@
+C:\Users\kryst\source\repos\VyfoceneTesty\bin\Debug\VyfoceneTesty.exe.config
+C:\Users\kryst\source\repos\VyfoceneTesty\bin\Debug\VyfoceneTesty.exe
+C:\Users\kryst\source\repos\VyfoceneTesty\bin\Debug\VyfoceneTesty.pdb
+C:\Users\kryst\source\repos\VyfoceneTesty\obj\Debug\VyfoceneTesty.csproj.AssemblyReference.cache
+C:\Users\kryst\source\repos\VyfoceneTesty\obj\Debug\VyfoceneTesty.csproj.CoreCompileInputs.cache
+C:\Users\kryst\source\repos\VyfoceneTesty\obj\Debug\VyfoceneTesty.exe
+C:\Users\kryst\source\repos\VyfoceneTesty\obj\Debug\VyfoceneTesty.pdb
