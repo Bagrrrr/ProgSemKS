@@ -1,0 +1,2 @@
+C:\Users\kryst\Desktop\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.AssemblyReference.cache
+C:\Users\kryst\Desktop\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.CoreCompileInputs.cache

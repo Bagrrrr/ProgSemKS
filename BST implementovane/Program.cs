@@ -74,9 +74,16 @@ namespace BInarySearchTree
         /// <returns>Returns True if node was successfully inserted or False if inserted key was already present.</returns>
         public void Insert(int newKey, T newValue) // chceme, aby nikdo zvenku nemusel specifikovat kořen stromu, strom sám ví, co je jeho kořen => rozdělíme na public Insert a rekurzivní private _insert
         {
-            Node<T> _insert(Node<T> node, int newKey, T newValue)
+            Node<T> _insert(Node<T> node, int newKe, T newValu)
             {
-
+                if (node == null)
+                    node = new Node<T>(newKe, newValu);
+                else if (node.Key == newKe)
+                    return null;
+                else if (node.Key < newKe)
+                    return _insert(node.RightSon, newKe, newValu);
+                else
+                    return _insert(node.LeftSon, newKe, newValu);
             }
 
 
@@ -96,16 +103,16 @@ namespace BInarySearchTree
         /// <returns>Returns node with specified key or null if given key is not present.</returns>
         public Node<T> Find(int key)
         {
-            Node<T> _find(Node<T> node, int key) // privátní funkci mohu založit i uvnitř jiné funkce. Je pak viditelná, jen z té vnější funkce
+            Node<T> _find(Node<T> node, int key2) // privátní funkci mohu založit i uvnitř jiné funkce. Je pak viditelná, jen z té vnější funkce
             {
                 if (node == null)
                     return null;
-                if (key == node.Key)
+                if (key2 == node.Key)
                     return node;
-                else if (key > node.Key)
-                    return _find(node.RightSon, key);
+                else if (key2 > node.Key)
+                    return _find(node.RightSon, key2);
                 else
-                    return _find(node.LeftSon, key);
+                    return _find(node.LeftSon, key2);
             }
             return _find(Root, key);
         }
