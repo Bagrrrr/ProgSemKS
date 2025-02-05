@@ -38,6 +38,9 @@ namespace BInarySearchTree
                 }
             }
             Console.WriteLine(tree.Find(20).Value);
+            Console.WriteLine(tree.Delete(20).Value);
+            Console.WriteLine(tree.Show());
+            Console.ReadLine();
 
         }
     }
@@ -77,13 +80,17 @@ namespace BInarySearchTree
             Node<T> _insert(Node<T> node, int newKe, T newValu)
             {
                 if (node == null)
-                    node = new Node<T>(newKe, newValu);
+                {
+                    return new Node<T>(newKe, newValu);
+                   
+                }
                 else if (node.Key == newKe)
                     return null;
                 else if (node.Key < newKe)
-                    return _insert(node.RightSon, newKe, newValu);
+                    node.RightSon = _insert(node.RightSon, newKe, newValu);
                 else
-                    return _insert(node.LeftSon, newKe, newValu);
+                    node.LeftSon =  _insert(node.LeftSon, newKe, newValu);
+                return node;
             }
 
 
@@ -115,6 +122,83 @@ namespace BInarySearchTree
                     return _find(node.LeftSon, key2);
             }
             return _find(Root, key);
+        }
+        public Node<T> Findrem(int key)
+        {
+            Node<T> _find(Node<T> node, int key2) // privátní funkci mohu založit i uvnitř jiné funkce. Je pak viditelná, jen z té vnější funkce
+            {
+                if (node == null)
+                    return null;
+                if (key2 == node.Key)
+                    return node;
+                else if (key2 > node.Key)
+                    if (node.RightSon.Key == key)
+                    {
+                        return node;
+                    }
+                    else
+                        return _find(node.RightSon, key2);
+                else
+                    if (node.LeftSon.Key == key)
+                    {
+                        return node;
+                    }
+                    else
+                        return _find(node.LeftSon, key2);
+            }
+            return _find(Root, key);
+        }
+        public Node<T> Delete(int key)
+        {
+            int p = key;
+            if (Findrem(p) == null)
+                return null;
+            Node<T> m = Findrem(p);
+            if (m.RightSon.Key == key)
+            {
+                Node<T> l = m.RightSon;
+                bool y = true;
+                if (l.RightSon == null)
+                {
+                    if (l.LeftSon == null)
+                    {
+                        m.RightSon = null;
+                        return null;
+                    }
+                    else
+                        m.RightSon = l.LeftSon;
+                    return null;
+                }
+                if (l.LeftSon == null)
+                {
+                    m.RightSon = l.RightSon;
+                    return null;
+                }
+            }
+            if (m.LeftSon.Key == key)
+            {
+                Node<T> l = m.LeftSon;
+                bool y = false;
+                if (l.RightSon == null)
+                {
+                    if (l.LeftSon == null)
+                    {
+                        m.LeftSon = null;
+                        return null;
+                    }
+                    else
+                        m.LeftSon = l.LeftSon;
+                    return null;
+                }
+                if (l.LeftSon == null)
+                {
+                    m.LeftSon = l.RightSon;
+                    return null;
+                }
+            }
+
+            return m;
+
         }
 
 
@@ -158,12 +242,13 @@ namespace BInarySearchTree
 
         public string ClassName { get; }
 
-        public Student(int id, string firstName, string lastName, int age, string ClassName)
+        public Student(int id, string firstName, string lastName, int age, string className)
         {
             Id = id;
             FirstName = firstName;
             LastName = lastName;
             Age = age;
+            ClassName = className;
         }
 
         // aby se nám při Console.WriteLine(student) nevypsala jen nějaká adresa v paměti,

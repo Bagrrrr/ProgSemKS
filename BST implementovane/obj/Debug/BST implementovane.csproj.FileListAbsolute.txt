@@ -1,2 +1,9 @@
 C:\Users\kryst\Desktop\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.AssemblyReference.cache
 C:\Users\kryst\Desktop\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\BST implementovane\bin\Debug\BST implementovane.exe.config
+O:\C#\ProgSemKS\BST implementovane\bin\Debug\BST implementovane.exe
+O:\C#\ProgSemKS\BST implementovane\bin\Debug\BST implementovane.pdb
+O:\C#\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.exe
+O:\C#\ProgSemKS\BST implementovane\obj\Debug\BST implementovane.pdb
