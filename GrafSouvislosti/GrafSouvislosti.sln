@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafSouvislosti", "GrafSouvislosti.csproj", "{1CD2809C-EE9C-4428-8B25-86FF3E1B489F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD2809C-EE9C-4428-8B25-86FF3E1B489F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD2809C-EE9C-4428-8B25-86FF3E1B489F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD2809C-EE9C-4428-8B25-86FF3E1B489F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD2809C-EE9C-4428-8B25-86FF3E1B489F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD10113A-B9F2-45E8-9E00-560DE9FFC9D5}
+	EndGlobalSection
+EndGlobal

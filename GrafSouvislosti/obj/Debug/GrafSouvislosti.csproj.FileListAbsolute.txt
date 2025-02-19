@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.exe.config
+O:\C#\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.exe
+O:\C#\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.pdb
+O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.exe
+O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.pdb
