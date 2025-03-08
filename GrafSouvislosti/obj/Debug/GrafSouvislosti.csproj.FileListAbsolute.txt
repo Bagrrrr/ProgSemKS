@@ -5,3 +5,10 @@ O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.AssemblyReferen
 O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.CoreCompileInputs.cache
 O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.exe
 O:\C#\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.pdb
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.exe.config
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.exe
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\bin\Debug\GrafSouvislosti.pdb
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.AssemblyReference.cache
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.csproj.CoreCompileInputs.cache
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.exe
+C:\Users\kryst\Desktop\ProgSemKS\GrafSouvislosti\obj\Debug\GrafSouvislosti.pdb
