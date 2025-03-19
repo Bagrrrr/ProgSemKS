@@ -1,0 +1,7 @@
+O:\C#\ProgSemKS\Connect 4\bin\Debug\Connect 4.exe.config
+O:\C#\ProgSemKS\Connect 4\bin\Debug\Connect 4.exe
+O:\C#\ProgSemKS\Connect 4\bin\Debug\Connect 4.pdb
+O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.AssemblyReference.cache
+O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.CoreCompileInputs.cache
+O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.exe
+O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.pdb
