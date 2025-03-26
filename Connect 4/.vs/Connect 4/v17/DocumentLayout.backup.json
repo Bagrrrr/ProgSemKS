@@ -24,7 +24,11 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "O:\\C#\\ProgSemKS\\Connect 4\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAewDQAAAAQAAAAAAAAAA==",
+<<<<<<< Updated upstream
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwDQAAAAQAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T14:29:33.678Z",
               "EditorCaption": ""
