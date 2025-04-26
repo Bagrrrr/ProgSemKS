@@ -5,3 +5,10 @@ O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.AssemblyReference.cache
 O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.CoreCompileInputs.cache
 O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.exe
 O:\C#\ProgSemKS\Connect 4\obj\Debug\Connect 4.pdb
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\bin\Debug\Connect 4.exe.config
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\bin\Debug\Connect 4.exe
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\bin\Debug\Connect 4.pdb
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.AssemblyReference.cache
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\obj\Debug\Connect 4.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\obj\Debug\Connect 4.exe
+C:\Users\Uživatel\OneDrive\Plocha\ProgSemKS\Connect 4\obj\Debug\Connect 4.pdb
