@@ -3,6 +3,7 @@ using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,9 +16,23 @@ namespace Prefix_a_Postfix
             string priklad = Console.ReadLine();
             PrefixOrPostfix prefixOrPostfix = new PrefixOrPostfix();    
             Console.WriteLine(prefixOrPostfix.Vysledek(priklad));
+
         }
     }
-
+    public class Node
+    {
+        public string Value { get; set; } 
+        public Node Left { get; set; }   
+        public Node Right { get; set; }
+        public bool Used { get; set; }
+        public Node(string value)
+        {
+            Value = value;
+            Left = null;
+            Right = null;
+            Used = false;
+        }
+    }
     public class PrefixOrPostfix
     {
 
@@ -33,6 +48,67 @@ namespace Prefix_a_Postfix
                 return Postfix(priklad);
             }
         }
+        static string PrefixZapis (Node root, int leng)
+        {
+            List<string> list = new List<string>();
+            Node current = root;
+            for (int i = 0; i < leng*leng; i++)
+            {
+                if (current.Used == false)
+                {
+                                        // pouzit rekurzi prefixZapis - 
+                }
+                else
+                {
+                    if (current.Left.Used == true)
+                    {
+                        
+                    }
+                }
+                
+            }
+        }
+
+        static Node VypisStrom(string[] priklad)
+        {
+            Stack<Node> fix = new Stack<Node>();
+            for (int i = 0; i < priklad.Count(); i++)
+            {
+                if (float.TryParse(priklad[i], out float cislo))
+                {
+                    Node newNode = new Node(cislo.ToString());
+                    fix.Push(newNode);
+                }
+                else
+                {
+                    Node newNode = new Node(priklad[i]);
+                    if (fix.Count > 1)
+                    {
+                        newNode.Right = fix.Pop();
+                        newNode.Left = fix.Pop();
+                        fix.Push(newNode);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nedostatek");
+                        return null;
+                    }
+                }
+            }
+            if (fix.Count == 1)
+            {
+                Node root = fix.Pop();
+                Console.WriteLine("Root" + root.Value);
+                return root;
+            }
+            else
+            {
+                Console.WriteLine("Nedostatek");
+                return null;
+            }
+        }
+
+
         float? Prefix(string priklad)
         {
             string[] kousky = priklad.Split(' ');
@@ -116,6 +192,8 @@ namespace Prefix_a_Postfix
         float? Postfix(string priklad)
         {
             string[] kousky = priklad.Split(' ');
+            Node root = PrefixOrPostfix.VypisStrom(kousky);
+            PrefixOrPostfix.PrefixZapis(root,kousky.Count());
             Stack<float> stack = new Stack<float>();
             for (int i = 0; i < kousky.Length; i++)
             {
