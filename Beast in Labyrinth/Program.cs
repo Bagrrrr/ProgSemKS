@@ -13,7 +13,7 @@ namespace Beast_in_Labyrinth
         {
             int sirka = Convert.ToInt16(Console.ReadLine());
             int vyska = Convert.ToInt16(Console.ReadLine());
-            string[,] plan = new string[sirka,vyska];
+            string[,] plan = new string[vyska,sirka];
             for (int i = 0; i < vyska; i++)
             {
                 string lajna = Console.ReadLine();
@@ -22,24 +22,35 @@ namespace Beast_in_Labyrinth
                     plan[i, j] = lajna[j].ToString();
                 }
             }
+            bool y = true;
             for (int i = 0; i < 20; i++)
             {
                 List<int> pozice = FindHim(plan,sirka,vyska);
-                if (WallInFront(plan,sirka,vyska) == false && WallOnSide(plan, sirka, vyska) == true)
+                if (WallInFront(plan,sirka,vyska) == false && WallOnRight(plan, sirka, vyska) == true)
                 {
                     GoForward(plan,sirka,vyska);
                 }
-                else if (WallInFront(plan, sirka, vyska) == true && WallOnSide(plan, sirka, vyska) == true)
+                else if (WallInFront(plan, sirka, vyska) == true && WallOnRight(plan, sirka, vyska) == true)
                 {
                     RotateLeft(plan, sirka, vyska);
                 }
-                else if (WallInFront(plan, sirka, vyska) == false && WallOnSide(plan, sirka, vyska) == false)
+                else if (WallInFront(plan, sirka, vyska) == false && WallOnRight(plan, sirka, vyska) == false)
                 {
-                    RotateRight(plan, sirka, vyska);
+                    if (y == true)
+                        {
+                        RotateRight(plan, sirka, vyska);
+                        y = false;
+                        }
+                    else
+                    {
+                        GoForward(plan, sirka, vyska);
+                        y = true;
+                    }
                 }
-                else if (WallInFront(plan, sirka, vyska) == true && WallOnSide(plan, sirka, vyska) == false)
+                else if (WallInFront(plan, sirka, vyska) == true && WallOnRight(plan, sirka, vyska) == false)
                 {
                     RotateRight (plan, sirka, vyska);
+                    y = false;
                 }
                 else
                 {
@@ -52,9 +63,9 @@ namespace Beast_in_Labyrinth
         }
         static List<int> FindHim(string[,] pole, int sirka, int vyska)
         {
-            for (int i = 0; i < sirka; i++)
+            for (int j = 0; j < sirka; j++)
             {
-                for (int j = 0; j < vyska; j++)
+                for (int i = 0; i < vyska; i++)
                 {
                     if (pole[i,j] == "<" || pole[i, j] == "^" || pole[i, j] == ">" || pole[i, j] == "v")
                     {
@@ -166,7 +177,7 @@ namespace Beast_in_Labyrinth
             List<int> pozice = FindHim(pole, sirka, vyska);
             return pole[pozice[0], pozice[1]];
         }
-        static bool WallOnSide(string[,] pole, int sirka, int vyska)
+        static bool WallOnRight(string[,] pole, int sirka, int vyska)
         {
             List<int> pozice = FindHim(pole, sirka, vyska);
             string rotace = Rotace(pole, sirka, vyska);
@@ -174,6 +185,16 @@ namespace Beast_in_Labyrinth
             else if (rotace == ">" && pole[pozice[0] + 1, pozice[1]] == "X") { return true; }
             else if (rotace == "<" && pole[pozice[0] - 1, pozice[1]] == "X") { return true; }
             else if (rotace == "v" && pole[pozice[0], pozice[1] - 1] == "X") { return true; }
+            return false;
+        }
+        static bool WallOnLeft(string[,] pole, int sirka, int vyska)
+        {
+            List<int> pozice = FindHim(pole, sirka, vyska);
+            string rotace = Rotace(pole, sirka, vyska);
+            if (rotace == "^" && pole[pozice[0], pozice[1] - 1] == "X") { return true; }
+            else if (rotace == ">" && pole[pozice[0] - 1, pozice[1]] == "X") { return true; }
+            else if (rotace == "<" && pole[pozice[0] + 1, pozice[1]] == "X") { return true; }
+            else if (rotace == "v" && pole[pozice[0], pozice[1] + 1] == "X") { return true; }
             return false;
         }
         static bool WallInFront(string[,] pole, int sirka, int vyska)
