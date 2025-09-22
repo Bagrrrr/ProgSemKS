@@ -25,10 +25,27 @@ namespace Beast_in_Labyrinth
             for (int i = 0; i < 20; i++)
             {
                 List<int> pozice = FindHim(plan,sirka,vyska);
-                if (WallInFront(plan,sirka,vyska) == true && WallInFront(plan, sirka, vyska) == true)
+                if (WallInFront(plan,sirka,vyska) == false && WallOnSide(plan, sirka, vyska) == true)
                 {
-                    RotateLeft(plan,sirka,vyska);
+                    GoForward(plan,sirka,vyska);
                 }
+                else if (WallInFront(plan, sirka, vyska) == true && WallOnSide(plan, sirka, vyska) == true)
+                {
+                    RotateLeft(plan, sirka, vyska);
+                }
+                else if (WallInFront(plan, sirka, vyska) == false && WallOnSide(plan, sirka, vyska) == false)
+                {
+                    RotateRight(plan, sirka, vyska);
+                }
+                else if (WallInFront(plan, sirka, vyska) == true && WallOnSide(plan, sirka, vyska) == false)
+                {
+                    RotateRight (plan, sirka, vyska);
+                }
+                else
+                {
+                    Console.WriteLine("problem");
+                }
+                PrintPlan(plan);
             }
 
 
@@ -50,7 +67,99 @@ namespace Beast_in_Labyrinth
         }
         static string[,] RotateLeft(string[,] pole, int sirka, int vyska)
         {
+            string rotace = Rotace(pole,sirka,vyska);
+            List<int> pozice = FindHim(pole, sirka, vyska);
+            if (rotace == "^") 
+            {
+                pole[pozice[0], pozice[1]] = "<";
+                return pole;
+            }
+            else if (rotace == "<")
+            {
+                pole[pozice[0], pozice[1]] = "v";
+                return pole;
+            }
+            else if (rotace == "v")
+            {
+                pole[pozice[0], pozice[1]] = ">";
+                return pole;
+            }
+            else if (rotace == ">")
+            {
+                pole[pozice[0], pozice[1]] = "^";
+                return pole;
+            }
+            else
+            {
+                Console.WriteLine("problem");
+                return pole;
+            }
 
+        }
+        static string[,] RotateRight(string[,] pole, int sirka, int vyska)
+        {
+            string rotace = Rotace(pole, sirka, vyska);
+            List<int> pozice = FindHim(pole, sirka, vyska);
+            if (rotace == "^")
+            {
+                pole[pozice[0], pozice[1]] = ">";
+                return pole;
+            }
+            else if (rotace == ">")
+            {
+                pole[pozice[0], pozice[1]] = "v";
+                return pole;
+            }
+            else if (rotace == "v")
+            {
+                pole[pozice[0], pozice[1]] = "<";
+                return pole;
+            }
+            else if (rotace == "<")
+            {
+                pole[pozice[0], pozice[1]] = "^";
+                return pole;
+            }
+            else
+            {
+                Console.WriteLine("problem");
+                return pole;
+            }
+
+        }
+        static string[,] GoForward(string[,] pole, int sirka, int vyska)
+        {
+            string rotace = Rotace(pole, sirka, vyska);
+            List<int> pozice = FindHim(pole, sirka, vyska);
+            if (rotace == "^")
+            {
+                pole[pozice[0], pozice[1]] = ".";
+                pole[pozice[0] - 1, pozice[1]] = "^";
+                return pole;
+            }
+            else if (rotace == "v")
+            {
+                pole[pozice[0], pozice[1]] = ".";
+                pole[pozice[0] + 1, pozice[1]] = "v";
+                return pole;
+            }
+            else if (rotace == ">")
+            {
+                pole[pozice[0], pozice[1]] = ".";
+                pole[pozice[0], pozice[1] + 1] = ">";
+                return pole;
+            }
+            else if (rotace == "<")
+            {
+                pole[pozice[0], pozice[1]] = ".";
+                pole[pozice[0], pozice[1] - 1] = "<";
+                return pole;
+            }
+            else
+            {
+                Console.WriteLine("problem");
+                return pole;
+            }
         }
         static string Rotace(string[,] pole, int sirka, int vyska)
         {
@@ -76,6 +185,21 @@ namespace Beast_in_Labyrinth
             else if (rotace == "<" && pole[pozice[0], pozice[1] - 1] == "X") { return true; }
             else if (rotace == "v" && pole[pozice[0] + 1, pozice[1]] == "X") { return true; }
             return false;
+        }
+        static void PrintPlan(string[,] pole)
+        {
+            int rowLength = pole.GetLength(0);
+            int colLength = pole.GetLength(1);
+
+            for (int i = 0; i < rowLength; i++)
+            {
+                for (int j = 0; j < colLength; j++)
+                {
+                    Console.Write(string.Format("{0} ", pole[i, j]));
+                }
+                Console.Write(Environment.NewLine + Environment.NewLine);
+            }
+            Console.ReadLine();
         }
 
     }
