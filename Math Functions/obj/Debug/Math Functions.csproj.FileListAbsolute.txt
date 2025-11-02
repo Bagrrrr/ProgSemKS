@@ -1,0 +1,8 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\bin\Debug\Math Functions.exe.config
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\bin\Debug\Math Functions.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\bin\Debug\Math Functions.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\obj\Debug\Math Functions.csproj.AssemblyReference.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\obj\Debug\Math Functions.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\obj\Debug\Math Functions.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\obj\Debug\Math Functions.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Math Functions\obj\Debug\Math Functions.exe.config
