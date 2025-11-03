@@ -1,0 +1,7 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\bin\Debug\MaturitniUlohaCesty.exe.config
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\bin\Debug\MaturitniUlohaCesty.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\bin\Debug\MaturitniUlohaCesty.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\obj\Debug\MaturitniUlohaCesty.csproj.AssemblyReference.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\obj\Debug\MaturitniUlohaCesty.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\obj\Debug\MaturitniUlohaCesty.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MaturitniUlohaCesty\obj\Debug\MaturitniUlohaCesty.pdb

@@ -1,0 +1,7 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\obj\Debug\Prefix a Postfix.csproj.AssemblyReference.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\obj\Debug\Prefix a Postfix.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\bin\Debug\Prefix a Postfix.exe.config
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\bin\Debug\Prefix a Postfix.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\bin\Debug\Prefix a Postfix.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\obj\Debug\Prefix a Postfix.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Prefix a Postfix\obj\Debug\Prefix a Postfix.pdb

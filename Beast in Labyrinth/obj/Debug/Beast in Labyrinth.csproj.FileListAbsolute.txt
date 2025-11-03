@@ -1,0 +1,8 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\obj\Debug\Beast in Labyrinth.csproj.AssemblyReference.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\obj\Debug\Beast in Labyrinth.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\bin\Debug\Beast in Labyrinth.exe.config
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\bin\Debug\Beast in Labyrinth.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\bin\Debug\Beast in Labyrinth.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\obj\Debug\Beast in Labyrinth.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\obj\Debug\Beast in Labyrinth.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beast in Labyrinth\obj\Debug\Beast in Labyrinth.exe.config
