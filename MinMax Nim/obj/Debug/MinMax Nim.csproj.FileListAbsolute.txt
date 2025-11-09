@@ -1,0 +1,2 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.csproj.AssemblyReference.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.csproj.CoreCompileInputs.cache

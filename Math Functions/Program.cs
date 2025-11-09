@@ -24,10 +24,17 @@ namespace Math_Functions
             }
         }
     }
-    public abstract class MathFunction
+    interface IDerivateInverse
+    {
+        string Inverse();
+        string Derivate();
+    }
+    public abstract class MathFunction : IDerivateInverse
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Derivation { get; set; }
+        public string Inversion { get; set; }
         public Interval Domain { get; set; }
         public Interval Range { get; set; }
 
@@ -40,9 +47,12 @@ namespace Math_Functions
         }
 
         public abstract double Calculate(double x);
+        public abstract string Derivate();
+        public abstract string Inverse();
+       
         public virtual void FuncInfo()
         {
-            Console.WriteLine($"{Name} ma rovnici {Description}, definicni obor {Domain} a obor hodnot {Range} s {Prubeh}");
+            Console.WriteLine($"{Name} ma rovnici {Description}, definicni obor {Domain} a obor hodnot {Range} s {Prubeh}. Derivace je {Derivation}, Inverze {Inversion}");
         }
 
     }
@@ -78,6 +88,7 @@ namespace Math_Functions
         }
 
     }
+
     public class Linear : MathFunction
     {
         public double A {  get; set; }
@@ -85,27 +96,47 @@ namespace Math_Functions
         public Linear(double a, double b)
         {
             Name = "Linearni funkce";
-            Description = string.Format("y = {0}x + {1}",a,b);
+            Description = string.Format("y = {0}x + {1}", a, b);
             A = a;
             B = b;
-            Domain = new Interval("(","minus infinity","infinity",")", "");
+            Domain = new Interval("(", "minus infinity", "infinity", ")", "");
             if (a == 0)
             {
                 Range = new Interval("[", b.ToString(), b.ToString(), "]", "");
                 Prubeh = "rovnym prubehem";
             }
             else
-                Range = new Interval("(","minus infinity","infinity",")", "");
+            {
+                Range = new Interval("(", "minus infinity", "infinity", ")", "");
                 Prubeh = "linearnim prubehem";
-
+            }
+            Derivation = Derivate();
+            Inversion = Inverse();
         }
+        public override string Derivate()
+        {
+            return $"f'(x) = {A}";
+        }
+        public override string Inverse()
+        {
+            if (A == 0)
+            {
+                return "neexistuje pro linearni funkci.";
+            }
+            else
+            {
+                return $"f^(-1)(x) = (x - {B}) / {A}";
+            }
+        }
+
+
         public override double Calculate(double x)
         {
             return A * x + B;
         }
 
     }
-    public class LinearAbsolute : MathFunction
+    public class LinearAbsolute : MathFunction 
     {
         public double A { get; set; }
         public double B { get; set; }
@@ -125,11 +156,28 @@ namespace Math_Functions
             else
                 Range = new Interval("[", "0", "infinity", ")", "");
                 Prubeh = "linearnim prubehem se zrcadlovym zobrazenim negativnich hodnot: v";
-
+            Derivation = Derivate();
+            Inversion = Inverse();
         }
+        public override string Inverse()
+        {
+            if (A == 0)
+            {
+                return "neexistuje pro linearni funkci s absolutni hodnotou.";
+            }
+            else
+            {
+                return $"f^(-1)(x) = (x - {B}) / {A} kdyz x >= 0; f^(-1)(x) = (-x - {B}) / {A} kdyz x < 0";
+            }
+        }   
         public override double Calculate(double x)
         {
             return Math.Abs(A * x + B);
+        }
+        public override string Derivate()
+        {
+
+            return $"f'(x) = {A} kdyz {A}x+{B} >= 0; f'(x) = {-A} kdyz {A}x+{B} < 0";
         }
 
     }
@@ -162,7 +210,24 @@ namespace Math_Functions
             else
                 Range = new Interval("(", "minus infinity", "infinity", ")", "/(a/c)");
                 Prubeh = "hyperbolickym prubehem";
-
+            Derivation = Derivate();
+            Inversion = Inverse();
+        }
+        public override string Inverse()
+        {
+            if (A == 0 || C == 0 || (A*D - B*C) == 0)
+            {
+                return "neexistuje pro tuto funkci.";
+            }
+            else
+            {
+                return $"f^(-1)(x) = ({-D}x {B}) / ({C}x {-A})";
+            }
+        }
+        public override string Derivate()
+        {
+            double numerator = A * D - B * C; 
+            return $"f'(x) = ({numerator}) / ( {C}x + {D} )^2";
         }
         public override double Calculate(double x)
         {
@@ -206,6 +271,16 @@ namespace Math_Functions
                 Range = new Interval("(", "minus infinity", "infinity", ")", "");
                 Prubeh = "parabolickym prubehem";
 
+            Derivation = Derivate();
+            Inversion = Inverse();
+        }
+        public override string Inverse()
+        {
+            return "neexistuje pro kvadratickou funkci.";
+        }
+        public override string Derivate()
+        {
+            return $"f'(x) = {2 * A}x + {B}";
         }
         public override double Calculate(double x)
         {

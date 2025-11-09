@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MinMax Nim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\U\u017Eivatel\\Downloads\\M16\\M16\\Trenink M16a\\Elektro\\Elektro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5D21A-74F0-4758-AE40-821A248092D6}|MinMax Nim.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\minmax nim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5D21A-74F0-4758-AE40-821A248092D6}|MinMax Nim.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Elektro.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Downloads\\M16\\M16\\Trenink M16a\\Elektro\\Elektro.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\M16\\M16\\Trenink M16a\\Elektro\\Elektro.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Downloads\\M16\\M16\\Trenink M16a\\Elektro\\Elektro.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\M16\\M16\\Trenink M16a\\Elektro\\Elektro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:54:55.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MinMax Nim\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MinMax Nim\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAcwHcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:04:23.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
