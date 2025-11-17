@@ -113,14 +113,16 @@ namespace MinMax_Nim
             int bestPile = 0; // budoucí nejlepší hromádka k odebírání sirek
             byte matchesToRemove = 1; // buoducí nejlepší momentální počet k odebrání
 
-            // Root search: try every legal move and evaluate with minimax.
             int depthLimit = 10;
             int bestScore = int.MinValue;
 
             for (int pile = 0; pile < _state.Piles.Count; pile++)
             {
                 int available = _state.Piles[pile];
-                if (available <= 0) continue;
+                if (available <= 0)
+                {
+                    continue;
+                }
 
                 for (int take = 1; take <= available; take++)
                 {
@@ -138,22 +140,16 @@ namespace MinMax_Nim
                 }
             }
 
-            // minimax returns: +1 = bot win, -1 = bot loss, 0 = draw/unknown
             int minimax(List<int> piles, int depth, bool maximizingPlayer)
             {
                 int total = piles.Sum();
-
-                // Terminal state: no matches left -> previous player won.
                 if (total == 0)
                 {
-                    // If it's maximizing player's turn now, the minimizing player just moved and won.
                     return maximizingPlayer ? -1 : 1;
                 }
 
-                // Depth cutoff
                 if (depth == 0)
                 {
-                    // Could use heuristic (nim-sum), but return 0 as neutral at cutoff.
                     return 0;
                 }
                 if (maximizingPlayer)
@@ -161,15 +157,23 @@ namespace MinMax_Nim
                     int maxEval = int.MinValue;
                     for (int i = 0; i < piles.Count; i++)
                     {
-                        if (piles[i] <= 0) continue;
+                        if (piles[i] <= 0)
+                        {
+                            continue;
+                        }
                         for (int take = 1; take <= piles[i]; take++)
                         {
                             var child = piles.ToList();
                             child[i] -= take;
                             int eval = minimax(child, depth - 1, false);
-                            if (eval > maxEval) maxEval = eval;
-                            // alpha-beta pruning could be added here later
-                            if (maxEval == 1) return 1; // best possible, stop early
+                            if (eval > maxEval)
+                            {
+                                maxEval = eval;
+                            }
+                            if (maxEval == 1)
+                            {
+                                return 1;
+                            }
                         }
                     }
                     return maxEval;
@@ -185,8 +189,14 @@ namespace MinMax_Nim
                             var child = piles.ToList();
                             child[i] -= take;
                             int eval = minimax(child, depth - 1, true);
-                            if (eval < minEval) minEval = eval;
-                            if (minEval == -1) return -1; // worst possible for maximizing, stop early
+                            if (eval < minEval)
+                            {
+                                minEval = eval;
+                            }
+                            if (minEval == -1)
+                            {
+                                return -1;
+                            }
                         }
                     }
                     return minEval;
@@ -208,7 +218,7 @@ namespace MinMax_Nim
             Console.WriteLine();
         }
 
-        private void MakeAndPrintBotMove(Tuple<int, byte> move)
+        private void MakeAndPrintBotMove(Tuple<int, byte> move) 
         {
             _state.MakeMove(move.Item1, move.Item2);
             Console.WriteLine($"Počítač bere {move.Item2} sirky z hromádky {move.Item1}");

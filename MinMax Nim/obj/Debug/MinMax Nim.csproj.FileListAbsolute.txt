@@ -1,2 +1,7 @@
 C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.csproj.AssemblyReference.cache
 C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\bin\Debug\MinMax Nim.exe.config
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\bin\Debug\MinMax Nim.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\bin\Debug\MinMax Nim.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\MinMax Nim\obj\Debug\MinMax Nim.pdb
