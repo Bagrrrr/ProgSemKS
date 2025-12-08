@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\bin\Debug\net8.0\Test2.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\bin\Debug\net8.0\Test2.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\bin\Debug\net8.0\Test2.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\bin\Debug\net8.0\Test2.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\bin\Debug\net8.0\Test2.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\refint\Test2.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\Test2.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Test2\obj\Debug\net8.0\ref\Test2.dll

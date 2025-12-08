@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\refint\PraceSTextovymiSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\ref\PraceSTextovymiSoubory.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraceSTextSoubory", "PraceSTextSoubory.csproj", "{62960F04-7F79-43ED-884F-34B1D52F42FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62960F04-7F79-43ED-884F-34B1D52F42FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62960F04-7F79-43ED-884F-34B1D52F42FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62960F04-7F79-43ED-884F-34B1D52F42FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62960F04-7F79-43ED-884F-34B1D52F42FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4DC1682-0014-4F68-8BC7-EEC1B64EDA73}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\bin\Debug\net8.0\PraceSTextSoubory.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\bin\Debug\net8.0\PraceSTextSoubory.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\bin\Debug\net8.0\PraceSTextSoubory.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\bin\Debug\net8.0\PraceSTextSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\bin\Debug\net8.0\PraceSTextSoubory.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\refint\PraceSTextSoubory.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\PraceSTextSoubory.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\PraceSTextSoubory\obj\Debug\net8.0\ref\PraceSTextSoubory.dll
