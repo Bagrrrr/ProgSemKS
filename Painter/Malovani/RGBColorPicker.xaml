@@ -1,0 +1,26 @@
+﻿<Window x:Class="Malovani.RGBColorPicker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Malovani"
+        mc:Ignorable="d"
+        Title="RGBColorPicker" Height="519" Width="810">
+    <Grid>
+
+        <Rectangle x:Name="rectColor" HorizontalAlignment="Left" Height="414" Margin="64,58,0,0" Stroke="Black" VerticalAlignment="Top" Width="366"/>
+        <Slider x:Name="sliRed" HorizontalAlignment="Left" Margin="454,137,0,0" VerticalAlignment="Top" Width="286" Height="37" ValueChanged="slider_ValueChanged" SmallChange="1" Maximum="255" IsSnapToTickEnabled="True"/>
+        <Slider x:Name="sliBlue" HorizontalAlignment="Left" Margin="454,289,0,0" VerticalAlignment="Top" Width="286" Height="37" Interval="255" ValueChanged="slider_ValueChanged" IsSnapToTickEnabled="True" SmallChange="1" Maximum="255"/>
+        <Slider x:Name="sliGreen" HorizontalAlignment="Left" Margin="454,212,0,0" VerticalAlignment="Top" Width="286" Height="36" Interval="255" ValueChanged="slider_ValueChanged" IsSnapToTickEnabled="True" SmallChange="1" Maximum="255"/>
+        <TextBox x:Name="txtRed" HorizontalAlignment="Left" Margin="503,103,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="88" Height="18" PreviewTextInput="Integer" TextChanged="TextChanged"/>
+        <Label Content="Red" HorizontalAlignment="Left" Margin="454,99,0,0" VerticalAlignment="Top" Height="26" Width="44" Background="Red"/>
+        <TextBox x:Name="txtGreen" HorizontalAlignment="Left" Margin="503,178,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="88" Height="18" PreviewTextInput="Integer" TextChanged="TextChanged"/>
+        <Label Content="Green" HorizontalAlignment="Left" Margin="454,174,0,0" VerticalAlignment="Top" Height="26" Width="44" Background="Lime"/>
+        <TextBox x:Name="txtBlue" HorizontalAlignment="Left" Margin="503,252,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="88" Height="18" PreviewTextInput="Integer" TextChanged="TextChanged"/>
+        <Label Content="Blue" HorizontalAlignment="Left" Margin="454,248,0,0" VerticalAlignment="Top" Height="26" Width="44" Background="#FF0002FF" Foreground="White"/>
+        <Label x:Name="lblHex" Content="#000000" HorizontalAlignment="Left" Margin="473,352,0,0" VerticalAlignment="Top" Width="231" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="RGB míchátko" HorizontalAlignment="Left" Margin="454,30,0,0" VerticalAlignment="Top" Width="231" FontSize="36"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Height="48" Margin="454,424,0,0" VerticalAlignment="Top" Width="330" Click="btnOK_Click"/>
+
+    </Grid>
+</Window>

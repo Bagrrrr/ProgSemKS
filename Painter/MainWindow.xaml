@@ -1,0 +1,40 @@
+﻿<Window x:Class="Painter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Painter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid MouseDown="DrawingCanvas_MouseDown">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Menu>
+            <MenuItem Header="Soubor">
+                <MenuItem Header="Otevrit" Click="OpenButt_Click"/>
+                <MenuItem x:Name="UlozButt" Header="Ulozit" Click="UlozButt_Click"/>
+            </MenuItem>
+            <MenuItem Header="Upravit">
+                <MenuItem Header="Zpet"/>
+                <MenuItem Header="Znovu"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Image x:Name="PeroImage" Width="32" Height="32" Source="/BrushImg.png" Margin="5"/>
+            <Label x:Name="TloustkaLabel" Content="Tloustka stetce:" Width="100" Height="26"/>
+            <Slider x:Name="TloustkaSlider" Width="120" Height="18" ValueChanged="TloustkaSlider_ValueChanged"></Slider>
+            <Label x:Name="BarvaLabel" Width="100" Content="Barva stetce:" Height="26"/>
+            <Button Width="36" x:Name="Barva" Height="36" Click="Barva_Click" Background="Black" />
+
+
+        </StackPanel>
+        <Canvas Grid.Row="2" x:Name="DrawingCanvas" MouseMove="DrawingCanvas_MouseMove" MouseUp="DrawingCanvas_MouseUp" Background="Azure" MouseDown="DrawingCanvas_MouseDown"/>
+
+    </Grid>
+</Window>
