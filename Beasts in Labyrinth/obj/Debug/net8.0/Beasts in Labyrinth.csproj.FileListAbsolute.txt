@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\bin\Debug\net8.0\Beasts in Labyrinth.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\bin\Debug\net8.0\Beasts in Labyrinth.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\bin\Debug\net8.0\Beasts in Labyrinth.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\bin\Debug\net8.0\Beasts in Labyrinth.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\bin\Debug\net8.0\Beasts in Labyrinth.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\refint\Beasts in Labyrinth.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\Beasts in Labyrinth.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\Beasts in Labyrinth\obj\Debug\net8.0\ref\Beasts in Labyrinth.dll
