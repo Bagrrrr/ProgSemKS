@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\mvvm todo list wpf\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|solutionrelative:viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\mvvm todo list wpf\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|solutionrelative:view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\mvvm todo list wpf\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|solutionrelative:model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\mvvm todo list wpf\\viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|solutionrelative:viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\mvvm todo list wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C33185CF-679B-4D10-8F01-06D176166A71}|MVVM todo list WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-19T08:00:58.445Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\ViewModel\\ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\ViewModel\\ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:39:51.945Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\Model\\Model.cs",
+              "RelativeDocumentMoniker": "Model\\Model.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\Model\\Model.cs",
+              "RelativeToolTip": "Model\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:39:24.939Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\View\\View.cs",
+              "RelativeDocumentMoniker": "View\\View.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\View\\View.cs",
+              "RelativeToolTip": "View\\View.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:39:41.585Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\ViewModel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\MVVM todo list WPF\\ViewModel\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModel\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:09:33.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
