@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\bin\Debug\net8.0\BackTracking.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\bin\Debug\net8.0\BackTracking.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\bin\Debug\net8.0\BackTracking.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\bin\Debug\net8.0\BackTracking.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\bin\Debug\net8.0\BackTracking.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\refint\BackTracking.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\BackTracking.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\BackTracking\obj\Debug\net8.0\ref\BackTracking.dll

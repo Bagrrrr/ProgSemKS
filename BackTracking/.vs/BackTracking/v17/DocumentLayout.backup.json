@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\BackTracking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75D3FC91-5A30-4239-82F6-7686AFFC8CB3}|BackTracking.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\progsemks\\backtracking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D3FC91-5A30-4239-82F6-7686AFFC8CB3}|BackTracking.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\BackTracking\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\ProgSemKS\\BackTracking\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T15:49:03.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

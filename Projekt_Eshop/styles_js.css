@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+}
+
+body.dark-mode {
+  background-color: #161616;
+  color: white;
+}
+
+form {
+  background-color: #ffffff;
+  border: 3px solid #f1f1f1;
+  margin:auto;
+  width:50%;
+  border-radius: 16px;
+  padding:16px;
+}
+
+/* tady je stylování pro darkmode fomrulář */
+/* cílí na všechny formuláře, které mají zároveň i třídu "dark-mode" */
+form.dark-mode {
+  background-color: #2f2f2f;
+  border:#161616;
+}
+
+input[type=email], input[type=password], input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* tady je stylování pro darkmode vstupních prvků */
+input.dark-mode {
+  background-color: #232323;
+  color: white;
+}
+
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  width:100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/*pozor upraveno na id pomocí # (. je pro třídy, # pro id) */
+#darkmodebtn{
+  float:right;
+  background-color: #fafafa;
+  width:auto;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 8px;
+}
+#darkmodebtn > img{
+  width:30px;
+}
+#darkmodebtn:hover {
+  background-color: #d8d8d8;
+}
+#darkmodebtn.dark-mode{
+  background-color: #232323;
+}
+#darkmodebtn.dark-mode:hover {
+  background-color: #2f2f2f;
+}
+
+/* doplněno stylování odstavce pro upozornění na neshodující se hesla */
+#pwd-alert {
+  color:#f44336;
+  font-size: small;
+  margin-top:0px;
+  display: none;
+
+}
+#pwd-alert.show {
+  display:block;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+}
+.signupbtn{
+  background-color: #04AA6D;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap:8px;
+}

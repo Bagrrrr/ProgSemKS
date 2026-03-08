@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorPickerWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f4860e68db8ccdd36b7cd67b0841288e1bcd63d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1676cc0f52b1fa0fa49879ac2c8ea15e2faa8b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorPickerWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorPickerWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
