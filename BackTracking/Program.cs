@@ -13,17 +13,15 @@
 
             if (!int.TryParse(Console.ReadLine(), out int suma))
             {
-                Console.WriteLine("Invalid target sum input.");
+                Console.WriteLine("Zadej integer");
                 return;
             }
 
 
-            Console.WriteLine("Parsed hodnoty: " + string.Join(", ", hodnoty));
-            Console.WriteLine("Parsed suma: " + suma);
 
             var solutions = FindAllWays(hodnoty, suma);
             if (solutions.Count == 0)
-                Console.WriteLine("No combinations found.");
+                Console.WriteLine("0");
             else
                 foreach (var sol in solutions)
                     Console.WriteLine(string.Join(' ', sol));

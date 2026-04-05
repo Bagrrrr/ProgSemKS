@@ -40,6 +40,18 @@
                 <button type="submit" class="signupbtn">Sign Up</button>
             </div>
         </form> 
+        <div id="error-message"></div>
+        <script>
+
+            const params = new URLSearchParams(window.location.search);
+            const errorDiv = document.getElementById('error-message');
+            
+            if(params.get('error') === 'email_exists') {
+                errorDiv.innerHTML = '<p style="color:red; text-align:center; font-weight:bold;">This email is already registered. Please use a different email.</p>';
+            } else if(params.get('error') === 'database_error') {
+                errorDiv.innerHTML = '<p style="color:red; text-align:center; font-weight:bold;">An error occurred during registration. Please try again.</p>';
+            }
+        </script>
         <script src="myScript.js"></script>
     </body>
 </html>

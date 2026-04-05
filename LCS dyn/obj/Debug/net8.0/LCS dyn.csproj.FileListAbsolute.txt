@@ -1,0 +1,15 @@
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\bin\Debug\net8.0\LCS dyn.exe
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\bin\Debug\net8.0\LCS dyn.deps.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\bin\Debug\net8.0\LCS dyn.runtimeconfig.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\bin\Debug\net8.0\LCS dyn.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\bin\Debug\net8.0\LCS dyn.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.AssemblyInfo.cs
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.sourcelink.json
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\refint\LCS dyn.dll
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.pdb
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\LCS dyn.genruntimeconfig.cache
+C:\Users\Uživatel\Documents\GitRepo\ProgSemKS\LCS dyn\obj\Debug\net8.0\ref\LCS dyn.dll
